@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="PRODUCTOS"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="CODIGO"
+        android:textSize="10dp"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="BUSCAR"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imag"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint="NOMBRE DEL PRODUCTO"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <EditText
+        android:id="@+id/preciocosto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:hint="PRECIO DE COSTO"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <EditText
+        android:id="@+id/precioventa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:hint="PRECIO DE VENTA"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <EditText
+        android:id="@+id/existencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:hint="EXISTENCIAS"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <EditText
+        android:id="@+id/fn_entrada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:hint="FECHA DE ENTRADA"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <EditText
+        android:id="@+id/descripciion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:hint="DESCRIPCION DEL PRODUCTO"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <EditText
+        android:id="@+id/codigo_marca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:hint="CODIGO DE MARCA"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <EditText
+        android:id="@+id/marca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:hint="MARCA DEL PRODUCTO"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+
+
+    <Button
+        android:id="@+id/agregar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="AGREGAR" />
+
+    <Button
+        android:id="@+id/modificar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="MODIFICAR" />
+
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="ELIMINAR" />
+
+
+</LinearLayout>
